@@ -22,5 +22,7 @@ The zip file contains a set of collection utilities.  You’ll need to run the p
 
 Notes: 
 • Do not run any out of the ordinary processes, such as index maintenance or DBCC commands.  Backups or any other operation that may skew the regular server operation. 
+
 • Do not have other SQL profiler traces running concurrently with PSSDIAG 
+
 • Do not have perfmon or other Windows performance counters collection tools started, as this may cause PSSDIAG not to collect perfmon counters 
