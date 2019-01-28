@@ -21,6 +21,7 @@ The zip file contains a set of collection utilities.  You’ll need to run the p
           Do not stop the batch file, let the batch file complete. If questioned to stop the batch file answer “N” 
 
 Notes: 
+
 • Do not run any out of the ordinary processes, such as index maintenance or DBCC commands.  Backups or any other operation that may skew the regular server operation. 
 
 • Do not have other SQL profiler traces running concurrently with PSSDIAG 
